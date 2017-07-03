@@ -48,7 +48,7 @@ public class LoginServ extends HttpServlet {
 				//response.sendRedirect("success.jsp");
 				//Object data=u.getName();
 				users.add(u);
-				RequestDispatcher rd=request.getRequestDispatcher("SuccessLogin.jsp");
+				RequestDispatcher rd=request.getRequestDispatcher("Login1.jsp");
 				
 				request.setAttribute("users", users);
 				rd.forward(request, response);
